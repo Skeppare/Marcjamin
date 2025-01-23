@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Pokémon Pokedex</title>
+</head>
+<body>
+    <h1>Welcome to the Pokedex!</h1>
+    <ul>
+        <li th:each="pokemon : ${pokemons}">
+            <span th:text="${pokemon.name}">Pikachu</span>
+        </li>
+    </ul>
+</body>
+</html>
