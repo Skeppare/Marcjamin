@@ -1,18 +1,16 @@
-/* Reset some default styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body and general text styling */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
     color: #333;
 }
 
-/* Navigation styling */
 nav {
     background-color: #3c8c3c;
     padding: 15px;
@@ -38,7 +36,6 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Search Bar Styling */
 #search-container {
     text-align: center;
     margin: 20px;
@@ -52,7 +49,6 @@ nav ul li a:hover {
     border: 1px solid #ccc;
 }
 
-/* Pokedex Section Styling */
 #pokedex {
     padding: 20px;
     margin: 0 15%;
@@ -79,7 +75,6 @@ nav ul li a:hover {
     margin-bottom: 8px;
 }
 
-/* Footer Styling */
 footer {
     background-color: #333;
     color: white;
